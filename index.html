@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="database/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Venus Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+
+   <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+          <p style="font-size:80px; color:black; background-color: grey;">Venus Bank</p>
+          <h1>Here Since 1970</h1>
+          <p class="lead muted">All Your banking Solutions In one Place</p>
+          <p>A bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange, and safe deposit boxes. There are several different kinds of banks including retail banks, commercial or corporate banks, and investment banks. In most countries, banks are regulated by the national government or central bank.</p>
+          <br>
+          <br>
+          <a class="get-started" href="./customers.html">Login</a>
+        </div>
+
+
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <div class="hero-img-div">
+            <img class="hero-img" src="database/media/backbank.png" alt="img-showing-money-transfer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="database/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+<div style="font-size: xx-large; margin-bottom: 15px; margin-left: 10px; ">Need help logging in ?</div>
+<iframe src='https://webchat.botframework.com/embed/steticwebapp-bot?s=tDr2FlYMCzQ.29lpPfnjabxnrttQWRoKUaZ5On3wIozKX_yEaRu2Lu4'  style='  min-width: 300px; width: 30%; min-height: 300px;margin-left: 10px;'></iframe>  
+</body>
+</html>

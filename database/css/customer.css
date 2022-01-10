@@ -1,0 +1,44 @@
+body{
+    font-family: 'serif;', sans-serif;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: lightgoldenrodyellow;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #5f6368!important;
+}
+
+.nav-link{
+    color: #5f6368!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: black!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: lightgrey!important;
+}
+th{
+    background-color: lightgrey;
+}
